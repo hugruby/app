@@ -4,7 +4,7 @@ pipeline {
     timeout(time: 2, unit: 'MINUTES')
   }
   environment {
-    ARTIFACT_ID = "norman404/app:${env.BUILD_NUMBER}"
+    ARTIFACT_ID = "hugruby/app:${env.BUILD_NUMBER}"
   }
   stages {
     stage("Build") {
